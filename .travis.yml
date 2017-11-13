@@ -1,7 +1,6 @@
 # R for travis: see documentation at https://docs.travis-ci.com/user/languages/r
 
 language: R
-sudo: required
+sudo: false
 cache: packages
-install:
-  - Rscript -e 'install.packages("dplyr", repos = "http://cran.rstudio.com")
+
