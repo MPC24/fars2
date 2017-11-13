@@ -1,20 +1,19 @@
 Package: fars2
 Type: Package
-Title: Fatality Analysis Reporting System Data Manager
+Title: Package for FARS accident data analysis
 Version: 0.1.0
-Author: Michael Conway
+Author: Michael COnway [aut,cre]
 Maintainer: Michael Conway <mpconway@gmail.com>
-Description: This package uploads, organizes and annalyzes Fatality Analysis Reporting System accident data. 
+Description: This package wrangles and ananlyzes Accident Fatality data.
 License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
-Imports: dplyr, 
-        readr, 
-        tidyr, 
-        maps, 
-        graphics
+RoxygenNote: 6.0.1
+Imports: dplyr,
+         maps,
+         readr,
+         tidyr
 Suggests: knitr,
     rmarkdown,
     testthat
 VignetteBuilder: knitr
-RoxygenNote: 6.0.1
